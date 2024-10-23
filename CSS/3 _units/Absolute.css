@@ -1,0 +1,39 @@
+.container{
+    height: 500px;
+    width: 400px;
+    border: 2px solid red;
+    background-color: aqua;
+}
+
+
+.container > .box1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(0, 255, 166);
+    background-color: blue;
+}  
+
+
+.container > .box2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(255, 0, 191);
+    background-color: beige;
+}  
+
+
+
+.container > .box3{
+    height: 100px;
+    width: 100px;
+    border:2px solid orange ;
+    background-color: blueviolet;
+}
+
+container > .box2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(255, 0, 191);
+    background-color: beige;
+}  
+}

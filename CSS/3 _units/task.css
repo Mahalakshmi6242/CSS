@@ -1,0 +1,46 @@
+.container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.container > .row1{
+    display: flex;
+}
+.container > .row2{
+    display: flex;
+}
+.container > .row3{
+    display: flex;
+}
+.container > .row4{
+    display: flex;
+}
+.container > .row5{
+    display: flex;
+}
+.container > .row6{
+    display: flex;
+}
+.container > .row7{
+    display: flex;
+}
+.container > .row8{
+    display: flex;
+}
+
+.white{
+    height: 50px;
+    width: 50px; 
+    background-color: white;
+}
+
+.black{
+    height: 50px;
+    width: 50px; 
+    background-color: black;
+}
+
+
+
+

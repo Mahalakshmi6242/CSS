@@ -1,0 +1,43 @@
+
+.container > #para1{
+    color: red;
+}
+
+
+.container > #para1::first-letter{
+    color: blue;
+    font-size: 40px;
+}
+
+
+.container > #para1::first-line{
+    color: yellowgreen;
+}
+
+
+
+::selection{
+    background-color: black;
+    color: white;
+}
+
+
+.container2 > ul >li ::marker{
+    color: blueviolet;
+}
+
+.container2 > ul >li:nth-child(2n)::marker{
+    color: aqua;
+}
+
+
+.container > h1::after{
+    content:"**";
+    color: green;
+}
+
+
+.container > h1::before{
+    content:"**";
+    color: royalblue;
+}

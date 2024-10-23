@@ -1,0 +1,44 @@
+
+ /* !tag selector */    whenever, we  choose only one tagname get color change
+        
+
+ 
+/*h1{
+    color: brown;
+}
+
+p{
+    color: rgb(43, 255, 0);
+}*/
+
+/*! id selector  */  whenever,we choose unique element to get color change
+
+
+#para1{
+    color: rgb(255, 0, 111);
+}
+
+
+ /* !class selector */  whenever,we choose morethan one element to get col
+
+.para4{
+    color: blueviolet;
+}
+
+/* ! group selector */ grouping morethen one element to get color change
+
+
+#para1 ,.para4{
+    background-color: aqua;
+}
+
+
+/* ! universal selector */ target all the elements 
+*
+{
+    color: chartreuse;
+
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}

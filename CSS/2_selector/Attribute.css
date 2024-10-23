@@ -1,0 +1,35 @@
+/* Arrtibute Selector */
+.container > a{
+    color: chocolate;
+}
+
+
+
+.container > a[href]{
+    color: yellowgreen;
+}
+
+
+
+
+.container2 > a[target="_blank"]{
+    color: brown;
+}
+
+
+
+form input[type="text"]{
+    background-color: aqua;
+}
+
+
+form input[type="tel"]{
+    background-color: rgb(255, 0, 187);
+}
+
+
+form input[type="password"]{
+    background-color: rgb(255, 140, 0);
+}
+
+

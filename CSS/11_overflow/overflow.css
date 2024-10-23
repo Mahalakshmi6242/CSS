@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.outer{
+    height: 100vh;
+    background-color: lavender;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.outer > .inner{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border :2px solid black;
+    overflow:scroll ;
+    background-color:lightsteelblue;
+
+}
+.inner > h1{
+    text-transform:capitalize;
+    color: blue;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+
+}

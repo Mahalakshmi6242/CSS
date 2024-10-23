@@ -1,0 +1,33 @@
+/* p{
+    color:blueviolet
+}*/ 
+
+
+/*! descendant selector */
+
+
+  /* .container p{
+    color: blue;
+} */
+
+
+/*! direct child selector
+
+
+/*
+.container >p {
+    color: red;
+}*/
+
+/* !adjacent sibling selector */
+
+/*.container4 >#para4 +p{
+    color:chartreuse ;
+} */
+
+
+/* !gendral sibling */
+
+/*.container4 >#para4 ~p{
+    color: aquamarine;
+    }*/
